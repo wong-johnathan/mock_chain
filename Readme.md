@@ -19,8 +19,8 @@ A simple JavaScript application to simulate the functionality of a blockchain.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/blockchain-simulation-app.git
-    cd blockchain-simulation-app
+    git clone https://github.com/wong-johnathan/mock-chain.git
+    cd mock-chain
     ```
 
 2. Start the nodes using Docker Compose:

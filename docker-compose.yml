@@ -1,0 +1,32 @@
+version: '3'
+services:
+  node_1:
+    container_name: node_1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9001:3000
+    volumes:
+      - .:/app
+    restart: always
+  node_2:
+    container_name: node_2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9002:3000
+    volumes:
+      - .:/app
+    restart: always
+  node_3:
+    container_name: node_3
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9003:3000
+    volumes:
+      - .:/app
+    restart: always
